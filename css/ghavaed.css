@@ -1,0 +1,17 @@
+p{
+    color: red;
+    font-size: 20px;
+}
+
+.para{
+    color: rebeccapurple;
+}
+
+#test{
+    color: green;
+}
+
+/* به تمام تگ ها داده میشود */
+*{
+    color: purple;
+}

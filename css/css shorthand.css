@@ -1,0 +1,10 @@
+p{
+    background-color: #000;
+    background-image: url(../Images/11zon_c2036353ff78.ico);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* این شورت هند نویسی است */
+p{
+    background: #000 url(../Images/11zon_c2036353ff78.ico) no-repeat center;
+}

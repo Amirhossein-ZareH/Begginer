@@ -1,0 +1,16 @@
+p{
+    color: green;
+}
+
+p{
+    color: rgb(red, green, blue);
+}
+
+p{
+    color: #223040;
+    color: #f23;
+}
+
+p{
+    color: rgb(22, 22, 45, 0.2);
+}

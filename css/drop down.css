@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 100px;
+}
+
+.drop_box{
+    background-color: red;
+    position: relative;
+}
+
+.drop_box a{
+    background-color: green;
+}
+
+.drop_box ul{
+    background-color: pink;
+    list-style-type: none;
+    width: 100px;
+    display: none;
+    position: absolute;
+    top: 30%;
+    left: 0;
+}
+
+.drop_box:hover ul{
+    display: block;
+}

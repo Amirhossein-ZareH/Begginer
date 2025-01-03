@@ -1,0 +1,14 @@
+.box{
+    background-color: red;
+}
+
+h1{
+    background-color: gray;
+}
+
+p{
+    background-image: url("../Images/download.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

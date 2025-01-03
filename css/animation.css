@@ -1,0 +1,32 @@
+.box{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+
+    animation-name: test;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    
+}
+
+.box:hover{
+    animation-play-state: paused;
+}
+
+@keyframes test{
+    0%{
+        background-color: aqua;
+    }
+
+    50%{
+        background-color: blueviolet;
+    }
+
+    100%{
+        background-color: brown;
+    }
+}
